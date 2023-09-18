@@ -10,12 +10,12 @@ public class TestController {
 
     @GetMapping("/feature1")
     public String feature1() {
-        return "Hello This is feature 2";
+        return "I'm feature 1";
     }
 
     @GetMapping("/feature2")
     public String feature2() {
-        return "I'm feature1";
+        return "Hello This is feature 2";
     }
 
     @GetMapping("/feature3")
