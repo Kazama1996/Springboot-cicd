@@ -21,7 +21,13 @@ public class TestController {
     @GetMapping("/feature3")
     public String feature3() {
         return " Hello This is feature 3 ~~~~";
+    }
+
+    @GetMapping("/feature4")
+    public String feature4() {
+        return " Hello This is feature 4 ~~~~";
 
     }
+
 
 }
