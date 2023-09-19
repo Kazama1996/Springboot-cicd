@@ -18,4 +18,9 @@ public class TestController {
         return "Hello This is feature 2";
     }
 
+    @GetMapping("/feature3")
+    public String feature3() {
+        return "Hello This is new feature 3";
+    }
+
 }
