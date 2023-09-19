@@ -23,11 +23,4 @@ public class TestController {
         return " Hello This is feature 3 ~~~~";
     }
 
-    @GetMapping("/feature4")
-    public String feature4() {
-        return " Hello This is feature 4 ~~~~";
-
-    }
-
-
 }
